@@ -28,7 +28,7 @@ class OBConnector(object):
         password=None,
         database=None,
         stdio=None,
-        timeout=30,
+        timeout=3000,
     ):
         self.ip = str(ip)
         self.port = int(port)
